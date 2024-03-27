@@ -16,4 +16,4 @@ from hr_employees
 join hr_grade using(emp_no)
 join hr_department using(dept_id)
 group by emp_no
-order by emp_no;
+order by emp_no
